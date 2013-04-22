@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Mike Berlin</string>
+		<key>Time</key>
+		<string>40.0</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mario</string>
+		<key>Time</key>
+		<string>42.0</string>
+	</dict>
+    <dict>
+		<key>Name</key>
+		<string>Luigi</string>
+		<key>Time</key>
+		<string>43.0</string>
+	</dict>
+    <dict>
+		<key>Name</key>
+		<string>Peach</string>
+		<key>Time</key>
+		<string>44.0</string>
+	</dict>
+    <dict>
+		<key>Name</key>
+		<string>Bowser</string>
+		<key>Time</key>
+		<string>45.0</string>
+	</dict>
+    <dict>
+		<key>Name</key>
+		<string>Koopa</string>
+		<key>Time</key>
+		<string>46.0</string>
+	</dict>
+    <dict>
+		<key>Name</key>
+		<string>Toad</string>
+		<key>Time</key>
+		<string>47.0</string>
+	</dict>
+    <dict>
+		<key>Name</key>
+		<string>Wario</string>
+		<key>Time</key>
+		<string>48.0</string>
+	</dict>
+    <dict>
+		<key>Name</key>
+		<string>Yoshi</string>
+		<key>Time</key>
+		<string>49.0</string>
+	</dict>
+    <dict>
+		<key>Name</key>
+		<string>Boo</string>
+		<key>Time</key>
+		<string>50.0</string>
+	</dict>
+</array>
+</plist>
