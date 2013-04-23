@@ -25,6 +25,7 @@
     if (self) {
         self.playingCards = [self shuffleUpAndDeal];
         self.NumberOfGuesses = 0;
+        self.NumberOfMatches = 0;
         self.GameWon = NO;
         self.StartTimer = [NSDate date];
 
@@ -70,7 +71,6 @@
 - (BOOL)flipCardAtIndex:(NSUInteger)index
 {
     BOOL matchMade = NO;
-    int numPlayedCards = 0;
     PlayingCard *card = [self cardAtIndex:index];
 
     if (!card.WasPlayed) {
@@ -84,28 +84,26 @@
                         card.WasPlayed = YES;
                         otherCard.WasPlayed = YES;
                         matchMade = YES;
+                        ++self.NumberOfMatches;
                     }
                     else {
                         otherCard.IsFaceUp = NO;
-                        self.GameWon = NO;
                     }
                 }
-		
-                if (otherCard.WasPlayed) numPlayedCards++;
             }
         }
         card.IsFaceUp = YES;
     }
 
-    if (numPlayedCards == [self.PlayingCards count]) self.GameWon = YES;
+    ++self.NumberOfGuesses;
+    if (self.NumberOfMatches == [[PlayingCard Cards] count]) self.GameWon = YES;
     return matchMade;
 }
 
 - (BOOL)isHighScore:(NSTimeInterval)playersTime
 {
     BOOL isHighScore = NO;
-    NSLog(@"TimeInterval %f", playersTime);
-    
+
     for (NSDictionary *highScore in [CardGame LoadHighScores]) {
         NSTimeInterval tiHighScore = [[NSString stringWithFormat:@"%@", [highScore objectForKey:@"Time"]] doubleValue];
 
@@ -120,20 +118,18 @@
 {
     NSMutableDictionary *playerScore = [[NSMutableDictionary alloc] init];
     [playerScore setValue:playersName forKey:HIGHSCORE_NAME_KEY];
-    [playerScore setValue:[NSNumber numberWithDouble:playersTime] forKey:HIGHSCORE_TIME_KEY];
+    [playerScore setValue:[NSString stringWithFormat:@"%f", playersTime] forKey:HIGHSCORE_TIME_KEY];
 
     NSMutableArray *highScores = [CardGame LoadHighScores];
     [highScores addObject:playerScore];
 
-    NSLog(@"Array of Dictionaries: %@", highScores);
-
     NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:HIGHSCORE_TIME_KEY ascending:YES];
-
-    //NSMutableArray *sortedHighScores = [[highScores sortedArrayUsingDescriptors:@[sortDescriptor]] mutableCopy];
-
-    //NSLog(@"Sorted Array of Dictionaries: %@", sortedHighScores);
-
-    //highScores = [NSMutableArray arrayWithArray:sortedHighScores];
+    NSMutableArray *sortedHighScores = [[highScores sortedArrayUsingDescriptors:@[sortDescriptor]] mutableCopy];
+    
+    [highScores removeAllObjects];
+    for (int i = 0; i < 10; i++) {
+        [highScores addObject:[sortedHighScores objectAtIndex:i]];
+    }
 
     [CardGame SaveHighScores:highScores];
 }

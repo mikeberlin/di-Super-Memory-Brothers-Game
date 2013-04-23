@@ -14,9 +14,6 @@
 		5714DE61171F70C0003552A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5714DE5F171F70C0003552A3 /* InfoPlist.strings */; };
 		5714DE63171F70C0003552A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5714DE62171F70C0003552A3 /* main.m */; };
 		5714DE67171F70C0003552A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5714DE66171F70C0003552A3 /* AppDelegate.m */; };
-		5714DE69171F70C0003552A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5714DE68171F70C0003552A3 /* Default.png */; };
-		5714DE6B171F70C0003552A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5714DE6A171F70C0003552A3 /* Default@2x.png */; };
-		5714DE6D171F70C0003552A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5714DE6C171F70C0003552A3 /* Default-568h@2x.png */; };
 		5714DE76171F70EA003552A3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5714DE74171F70EA003552A3 /* GameViewController.m */; };
 		5714DE77171F70EA003552A3 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5714DE75171F70EA003552A3 /* GameViewController.xib */; };
 		5714DE7B171F711F003552A3 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5714DE7A171F711F003552A3 /* PlayingCard.m */; };
@@ -33,20 +30,23 @@
 		573CB3391721AB8600ED46BB /* Title After.png in Resources */ = {isa = PBXBuildFile; fileRef = 573CB3381721AB8600ED46BB /* Title After.png */; };
 		575295471721C22F0037CB3F /* Flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 575295461721C22F0037CB3F /* Flower.png */; };
 		5752954B1721C76F0037CB3F /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5752954A1721C76F0037CB3F /* GameBackground.png */; };
-		575295511721CC540037CB3F /* 1Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5752954E1721CC540037CB3F /* 1Up.mp3 */; };
-		575295521721CC540037CB3F /* Match.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5752954F1721CC540037CB3F /* Match.wav */; };
-		575295531721CC540037CB3F /* NoMatch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 575295501721CC540037CB3F /* NoMatch.wav */; };
-		575295581721CC640037CB3F /* MusicBox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 575295541721CC640037CB3F /* MusicBox.mp3 */; };
-		575295591721CC640037CB3F /* Overworld.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 575295551721CC640037CB3F /* Overworld.mp3 */; };
-		5752955A1721CC640037CB3F /* SpadeGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 575295561721CC640037CB3F /* SpadeGame.mp3 */; };
-		5752955B1721CC640037CB3F /* VictoryFanFare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 575295571721CC640037CB3F /* VictoryFanFare.mp3 */; };
-		5752955F1721CD4D0037CB3F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5752955D1721CD4C0037CB3F /* HomeViewController.m */; };
-		575295601721CD4D0037CB3F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5752955E1721CD4C0037CB3F /* HomeViewController.xib */; };
-		575295641721CD950037CB3F /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575295621721CD950037CB3F /* HighScoresViewController.m */; };
-		575295651721CD950037CB3F /* HighScoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575295631721CD950037CB3F /* HighScoresViewController.xib */; };
 		575295671721D49B0037CB3F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575295661721D49B0037CB3F /* AVFoundation.framework */; };
-		57A2B99D1721B36200ED83AF /* Emulogic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57A2B9981721B34300ED83AF /* Emulogic.ttf */; };
-		57A2B99E1721B36200ED83AF /* Super Plumber Brothers.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57A2B9991721B34300ED83AF /* Super Plumber Brothers.ttf */; };
+		57B92BF11726146B00A50B28 /* Emulogic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BEF1726146B00A50B28 /* Emulogic.ttf */; };
+		57B92BF21726146B00A50B28 /* Super Plumber Brothers.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BF01726146B00A50B28 /* Super Plumber Brothers.ttf */; };
+		57B92BF6172614AC00A50B28 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BF3172614AC00A50B28 /* Default-568h@2x.png */; };
+		57B92BF7172614AC00A50B28 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BF4172614AC00A50B28 /* Default.png */; };
+		57B92BF8172614AC00A50B28 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BF5172614AC00A50B28 /* Default@2x.png */; };
+		57B92C01172614C600A50B28 /* 1Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BFA172614C600A50B28 /* 1Up.mp3 */; };
+		57B92C02172614C600A50B28 /* Match.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BFB172614C600A50B28 /* Match.wav */; };
+		57B92C03172614C600A50B28 /* MusicBox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BFC172614C600A50B28 /* MusicBox.mp3 */; };
+		57B92C04172614C600A50B28 /* NoMatch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BFD172614C600A50B28 /* NoMatch.wav */; };
+		57B92C05172614C600A50B28 /* Overworld.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BFE172614C600A50B28 /* Overworld.mp3 */; };
+		57B92C06172614C600A50B28 /* SpadeGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57B92BFF172614C600A50B28 /* SpadeGame.mp3 */; };
+		57B92C07172614C600A50B28 /* VictoryFanFare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57B92C00172614C600A50B28 /* VictoryFanFare.mp3 */; };
+		57B92C0E1726153A00A50B28 /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B92C091726153A00A50B28 /* HighScoresViewController.m */; };
+		57B92C0F1726153A00A50B28 /* HighScoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B92C0A1726153A00A50B28 /* HighScoresViewController.xib */; };
+		57B92C101726153A00A50B28 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B92C0C1726153A00A50B28 /* HomeViewController.m */; };
+		57B92C111726153A00A50B28 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B92C0D1726153A00A50B28 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,9 +61,6 @@
 		5714DE64171F70C0003552A3 /* MemoryCardGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryCardGame-Prefix.pch"; sourceTree = "<group>"; };
 		5714DE65171F70C0003552A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5714DE66171F70C0003552A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5714DE68171F70C0003552A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		5714DE6A171F70C0003552A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		5714DE6C171F70C0003552A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		5714DE73171F70EA003552A3 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		5714DE74171F70EA003552A3 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		5714DE75171F70EA003552A3 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
@@ -83,22 +80,25 @@
 		573CB3381721AB8600ED46BB /* Title After.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Title After.png"; sourceTree = "<group>"; };
 		575295461721C22F0037CB3F /* Flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flower.png; sourceTree = "<group>"; };
 		5752954A1721C76F0037CB3F /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
-		5752954E1721CC540037CB3F /* 1Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1Up.mp3; sourceTree = "<group>"; };
-		5752954F1721CC540037CB3F /* Match.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Match.wav; sourceTree = "<group>"; };
-		575295501721CC540037CB3F /* NoMatch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NoMatch.wav; sourceTree = "<group>"; };
-		575295541721CC640037CB3F /* MusicBox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MusicBox.mp3; sourceTree = "<group>"; };
-		575295551721CC640037CB3F /* Overworld.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Overworld.mp3; sourceTree = "<group>"; };
-		575295561721CC640037CB3F /* SpadeGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpadeGame.mp3; sourceTree = "<group>"; };
-		575295571721CC640037CB3F /* VictoryFanFare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VictoryFanFare.mp3; sourceTree = "<group>"; };
-		5752955C1721CD4C0037CB3F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
-		5752955D1721CD4C0037CB3F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
-		5752955E1721CD4C0037CB3F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ../HomeViewController.xib; sourceTree = "<group>"; };
-		575295611721CD950037CB3F /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoresViewController.h; path = ../HighScoresViewController.h; sourceTree = "<group>"; };
-		575295621721CD950037CB3F /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighScoresViewController.m; path = ../HighScoresViewController.m; sourceTree = "<group>"; };
-		575295631721CD950037CB3F /* HighScoresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HighScoresViewController.xib; path = ../HighScoresViewController.xib; sourceTree = "<group>"; };
 		575295661721D49B0037CB3F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		57A2B9981721B34300ED83AF /* Emulogic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Emulogic.ttf; path = ../Emulogic.ttf; sourceTree = "<group>"; };
-		57A2B9991721B34300ED83AF /* Super Plumber Brothers.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Super Plumber Brothers.ttf"; path = "../Super Plumber Brothers.ttf"; sourceTree = "<group>"; };
+		57B92BEF1726146B00A50B28 /* Emulogic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Emulogic.ttf; path = Fonts/Emulogic.ttf; sourceTree = "<group>"; };
+		57B92BF01726146B00A50B28 /* Super Plumber Brothers.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Super Plumber Brothers.ttf"; path = "Fonts/Super Plumber Brothers.ttf"; sourceTree = "<group>"; };
+		57B92BF3172614AC00A50B28 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		57B92BF4172614AC00A50B28 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		57B92BF5172614AC00A50B28 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		57B92BFA172614C600A50B28 /* 1Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1Up.mp3; path = Audio/1Up.mp3; sourceTree = "<group>"; };
+		57B92BFB172614C600A50B28 /* Match.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Match.wav; path = Audio/Match.wav; sourceTree = "<group>"; };
+		57B92BFC172614C600A50B28 /* MusicBox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MusicBox.mp3; path = Audio/MusicBox.mp3; sourceTree = "<group>"; };
+		57B92BFD172614C600A50B28 /* NoMatch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = NoMatch.wav; path = Audio/NoMatch.wav; sourceTree = "<group>"; };
+		57B92BFE172614C600A50B28 /* Overworld.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Overworld.mp3; path = Audio/Overworld.mp3; sourceTree = "<group>"; };
+		57B92BFF172614C600A50B28 /* SpadeGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SpadeGame.mp3; path = Audio/SpadeGame.mp3; sourceTree = "<group>"; };
+		57B92C00172614C600A50B28 /* VictoryFanFare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = VictoryFanFare.mp3; path = Audio/VictoryFanFare.mp3; sourceTree = "<group>"; };
+		57B92C081726153A00A50B28 /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresViewController.h; sourceTree = "<group>"; };
+		57B92C091726153A00A50B28 /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresViewController.m; sourceTree = "<group>"; };
+		57B92C0A1726153A00A50B28 /* HighScoresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoresViewController.xib; sourceTree = "<group>"; };
+		57B92C0B1726153A00A50B28 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		57B92C0C1726153A00A50B28 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		57B92C0D1726153A00A50B28 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +162,7 @@
 		5714DE5D171F70C0003552A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57B92BF9172614BB00A50B28 /* Audio */,
 				57A2B99C1721B34F00ED83AF /* Fonts */,
 				5704BF741724FC7200B65DB6 /* HighScores.plist */,
 				5714DE7C171F72C6003552A3 /* Images */,
@@ -169,8 +170,6 @@
 				5714DE62171F70C0003552A3 /* main.m */,
 				5714DE5E171F70C0003552A3 /* MemoryCardGame-Info.plist */,
 				5714DE64171F70C0003552A3 /* MemoryCardGame-Prefix.pch */,
-				5752954C1721CC3D0037CB3F /* Music */,
-				5752954D1721CC430037CB3F /* Sounds */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,9 +191,9 @@
 				573CB3211721A3E100ED46BB /* 1Up.png */,
 				5714DE7D171F72D3003552A3 /* cardBackground.jpg */,
 				573CB3221721A3E100ED46BB /* Coin.png */,
-				5714DE6C171F70C0003552A3 /* Default-568h@2x.png */,
-				5714DE68171F70C0003552A3 /* Default.png */,
-				5714DE6A171F70C0003552A3 /* Default@2x.png */,
+				57B92BF3172614AC00A50B28 /* Default-568h@2x.png */,
+				57B92BF4172614AC00A50B28 /* Default.png */,
+				57B92BF5172614AC00A50B28 /* Default@2x.png */,
 				575295461721C22F0037CB3F /* Flower.png */,
 				5752954A1721C76F0037CB3F /* GameBackground.png */,
 				573CB3241721A3E100ED46BB /* Koopa.png */,
@@ -207,32 +206,11 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		5752954C1721CC3D0037CB3F /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				575295541721CC640037CB3F /* MusicBox.mp3 */,
-				575295551721CC640037CB3F /* Overworld.mp3 */,
-				575295561721CC640037CB3F /* SpadeGame.mp3 */,
-				575295571721CC640037CB3F /* VictoryFanFare.mp3 */,
-			);
-			name = Music;
-			sourceTree = "<group>";
-		};
-		5752954D1721CC430037CB3F /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				5752954E1721CC540037CB3F /* 1Up.mp3 */,
-				5752954F1721CC540037CB3F /* Match.wav */,
-				575295501721CC540037CB3F /* NoMatch.wav */,
-			);
-			name = Sounds;
-			sourceTree = "<group>";
-		};
 		57A2B99C1721B34F00ED83AF /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				57A2B9981721B34300ED83AF /* Emulogic.ttf */,
-				57A2B9991721B34300ED83AF /* Super Plumber Brothers.ttf */,
+				57B92BEF1726146B00A50B28 /* Emulogic.ttf */,
+				57B92BF01726146B00A50B28 /* Super Plumber Brothers.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -242,10 +220,10 @@
 			children = (
 				5714DE73171F70EA003552A3 /* GameViewController.h */,
 				5714DE74171F70EA003552A3 /* GameViewController.m */,
-				575295611721CD950037CB3F /* HighScoresViewController.h */,
-				575295621721CD950037CB3F /* HighScoresViewController.m */,
-				5752955C1721CD4C0037CB3F /* HomeViewController.h */,
-				5752955D1721CD4C0037CB3F /* HomeViewController.m */,
+				57B92C081726153A00A50B28 /* HighScoresViewController.h */,
+				57B92C091726153A00A50B28 /* HighScoresViewController.m */,
+				57B92C0B1726153A00A50B28 /* HomeViewController.h */,
+				57B92C0C1726153A00A50B28 /* HomeViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -254,10 +232,24 @@
 			isa = PBXGroup;
 			children = (
 				5714DE75171F70EA003552A3 /* GameViewController.xib */,
-				575295631721CD950037CB3F /* HighScoresViewController.xib */,
-				5752955E1721CD4C0037CB3F /* HomeViewController.xib */,
+				57B92C0A1726153A00A50B28 /* HighScoresViewController.xib */,
+				57B92C0D1726153A00A50B28 /* HomeViewController.xib */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		57B92BF9172614BB00A50B28 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				57B92BFA172614C600A50B28 /* 1Up.mp3 */,
+				57B92BFB172614C600A50B28 /* Match.wav */,
+				57B92BFC172614C600A50B28 /* MusicBox.mp3 */,
+				57B92BFD172614C600A50B28 /* NoMatch.wav */,
+				57B92BFE172614C600A50B28 /* Overworld.mp3 */,
+				57B92BFF172614C600A50B28 /* SpadeGame.mp3 */,
+				57B92C00172614C600A50B28 /* VictoryFanFare.mp3 */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,12 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A2B99D1721B36200ED83AF /* Emulogic.ttf in Resources */,
-				57A2B99E1721B36200ED83AF /* Super Plumber Brothers.ttf in Resources */,
 				5714DE61171F70C0003552A3 /* InfoPlist.strings in Resources */,
-				5714DE69171F70C0003552A3 /* Default.png in Resources */,
-				5714DE6B171F70C0003552A3 /* Default@2x.png in Resources */,
-				5714DE6D171F70C0003552A3 /* Default-568h@2x.png in Resources */,
 				5714DE77171F70EA003552A3 /* GameViewController.xib in Resources */,
 				5714DE7E171F72D3003552A3 /* cardBackground.jpg in Resources */,
 				573CB3281721A3E100ED46BB /* 1Up.png in Resources */,
@@ -329,16 +316,21 @@
 				573CB3391721AB8600ED46BB /* Title After.png in Resources */,
 				575295471721C22F0037CB3F /* Flower.png in Resources */,
 				5752954B1721C76F0037CB3F /* GameBackground.png in Resources */,
-				575295511721CC540037CB3F /* 1Up.mp3 in Resources */,
-				575295521721CC540037CB3F /* Match.wav in Resources */,
-				575295531721CC540037CB3F /* NoMatch.wav in Resources */,
-				575295581721CC640037CB3F /* MusicBox.mp3 in Resources */,
-				575295591721CC640037CB3F /* Overworld.mp3 in Resources */,
-				5752955A1721CC640037CB3F /* SpadeGame.mp3 in Resources */,
-				5752955B1721CC640037CB3F /* VictoryFanFare.mp3 in Resources */,
-				575295601721CD4D0037CB3F /* HomeViewController.xib in Resources */,
-				575295651721CD950037CB3F /* HighScoresViewController.xib in Resources */,
 				5704BF751724FC7200B65DB6 /* HighScores.plist in Resources */,
+				57B92BF11726146B00A50B28 /* Emulogic.ttf in Resources */,
+				57B92BF21726146B00A50B28 /* Super Plumber Brothers.ttf in Resources */,
+				57B92BF6172614AC00A50B28 /* Default-568h@2x.png in Resources */,
+				57B92BF7172614AC00A50B28 /* Default.png in Resources */,
+				57B92BF8172614AC00A50B28 /* Default@2x.png in Resources */,
+				57B92C01172614C600A50B28 /* 1Up.mp3 in Resources */,
+				57B92C02172614C600A50B28 /* Match.wav in Resources */,
+				57B92C03172614C600A50B28 /* MusicBox.mp3 in Resources */,
+				57B92C04172614C600A50B28 /* NoMatch.wav in Resources */,
+				57B92C05172614C600A50B28 /* Overworld.mp3 in Resources */,
+				57B92C06172614C600A50B28 /* SpadeGame.mp3 in Resources */,
+				57B92C07172614C600A50B28 /* VictoryFanFare.mp3 in Resources */,
+				57B92C0F1726153A00A50B28 /* HighScoresViewController.xib in Resources */,
+				57B92C111726153A00A50B28 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +346,8 @@
 				5714DE76171F70EA003552A3 /* GameViewController.m in Sources */,
 				5714DE7B171F711F003552A3 /* PlayingCard.m in Sources */,
 				5714DE83171F7ABE003552A3 /* CardGame.m in Sources */,
-				5752955F1721CD4D0037CB3F /* HomeViewController.m in Sources */,
-				575295641721CD950037CB3F /* HighScoresViewController.m in Sources */,
+				57B92C0E1726153A00A50B28 /* HighScoresViewController.m in Sources */,
+				57B92C101726153A00A50B28 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

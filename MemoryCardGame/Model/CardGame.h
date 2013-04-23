@@ -14,6 +14,7 @@
 @property (strong, nonatomic) NSArray *PlayingCards; // PlayingCard
 @property (nonatomic) BOOL GameWon;
 @property (nonatomic) NSUInteger NumberOfGuesses;
+@property (nonatomic) NSUInteger NumberOfMatches;
 
 @property (strong, nonatomic) NSTimer *PollingTimer;
 @property (strong, nonatomic) NSDateFormatter *DateFormatter;
